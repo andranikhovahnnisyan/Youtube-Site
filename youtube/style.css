@@ -4,16 +4,19 @@ padding: 0;
 box-sizing: border-box;    
 }
 
+a {
+text-decoration: none;    
+}
+
 .boss {
 width: 100%;
 height: 100vh;
-background-color: red;    
 }
 
 .header {
 width: 100%;
 height: 10%;
-background-color: blue;
+background-color: #0F0F0F;
 display: flex;
 align-items: center;
 padding-left: 1%;
@@ -28,7 +31,8 @@ display: flex;
 justify-content: center;
 align-items: center;
 transition: 0.2s;
-margin-right: 1%;  
+margin-right: 1%;
+cursor: pointer;  
 }
 
 .menu_logo_div:hover {
@@ -87,7 +91,8 @@ width: 10%;
 height: 50%;
 position: absolute;
 right: 0;
-top: 20%;    
+top: 20%;
+cursor: pointer;    
 }
 
 .microphone_div {
@@ -98,7 +103,8 @@ border-radius: 50%;
 display: flex;
 justify-content: center;
 align-items: center;
-margin-right: 15%; 
+margin-right: 15%;
+cursor: pointer; 
 }
 
 .microphone_div:hover {
@@ -141,7 +147,8 @@ border-radius: 50%;
 display: flex;
 justify-content: center;
 align-items: center;
-transition: 0.2s;  
+transition: 0.2s;
+cursor: pointer;  
 }
 
 .notif_div:hover {
@@ -167,11 +174,189 @@ border-radius: 50%;
 .main {
 width: 100%;
 height: 90%;
-background-color: green;   
+background-color: green;
+display: flex;
 }
 
 .nav {
 width: 5%;
 height: 100%;
-background-color: yellow;    
+background-color: #0F0F0F;
+}
+
+.house_div {
+width: 100%;
+height: 12%;
+background-color: transparent;
+border-radius: 10px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+transition: 0.2s;   
+}
+
+.house_div:hover {
+background-color: rgba(255, 255, 255, 0.182);    
+}
+
+.house_logo_div {
+width: 40%;
+height: 40%;
+display: flex;
+justify-content: center;
+align-items: center;    
+}
+
+.nav_text {
+color: white;
+user-select: none;
+font-size: 0.9em;
+}
+
+.nav_a {
+text-decoration: none;    
+}
+
+.videos_main {
+width: 100%;
+height: 100%;
+background-color: #0F0F0F;    
+}
+
+.card1 {
+width: 30%;
+height: 40vh;
+border-radius: 10px;
+cursor: pointer;
+position: relative;  
+}
+
+.card_hover_div {
+width: 100%;
+height: 100%;
+border-radius: 10px;
+background-color: transparent;
+position: absolute;
+transition: 0.4s;
+}
+
+.card1:hover .card_hover_div {
+background-color: rgba(255, 255, 0, 0.1);
+transform: scale(1.04);
+}
+
+.card_photo_div {
+width: 100%;
+height: 70%;
+border-radius: 10px;    
+}
+
+.card_photo {
+width: 100%;
+height: 100%;
+border-radius: 10px;}
+
+.card_info_big {
+width: 100%;
+height: 30%;
+border-radius: 0px 0px 10px 10px;
+display: flex;
+padding-top: 2%;
+}
+
+.avatar_href {
+width: 8%;
+height: 30%;    
+}
+
+.card_avatar_div {
+width: 100%;
+height: 100%;
+border-radius: 50%;
+}
+
+.card_avatar {
+width: 100%;
+height: 100%;
+border-radius: 50%;    
+}
+
+.card_info_small {
+width: 92%;
+height: 100%;
+position: relative;   
+}
+
+.card_title {
+width: 90%;
+height: 25%;
+color: white;
+display: flex;
+align-items: center;
+font-size: 1.2rem;
+}
+
+.card_info_small_small {
+width: 80%;
+height: 20%;
+display: flex;    
+}
+
+.card_profile_name_div {
+width: 100%;
+height: 100%;
+color: rgba(255, 255, 255, 0.82);
+transition: 0.2s;
+display: flex;
+justify-content: center;
+align-items: center;   
+}
+
+.card_profile_name_div:hover {
+color: white;    
+}
+
+.card_play_icon_div {
+width: 5%;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;    
+}
+
+.card_viewers_number_div {
+width: 25%;
+height: 100%; 
+color: rgba(255, 255, 255, 0.82);
+display: flex;
+justify-content: center;
+align-items: center;   
+}
+
+.card_date_div {
+width: 25%;
+height: 100%;
+color: rgba(255, 255, 255, 0.82); 
+display: flex;
+justify-content: center;
+align-items: center;   
+}
+
+.card_more_div {
+width: 10%;
+height: 40%;
+background-color: transparent;
+border-radius: 50%;
+position: absolute;
+right: 0;
+top: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: 0.2s; 
+}
+
+.card_more_div:hover {
+background-color: rgba(255, 255, 255, 0.182);    
 }
