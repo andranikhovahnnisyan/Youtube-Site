@@ -225,7 +225,7 @@ height: 90%;
 background-color: #0F0F0F;
 display: flex;
 flex-direction: column;
-gap: 40px;   
+gap: 20px;   
 }
 
 .row1 {
@@ -268,7 +268,8 @@ border-radius: 10px;
 .card_photo {
 width: 100%;
 height: 100%;
-border-radius: 10px;}
+border-radius: 10px;
+}
 
 .card_info_big {
 width: 100%;
@@ -307,7 +308,6 @@ height: 25%;
 color: white;
 display: flex;
 align-items: center;
-font-size: 1.2rem;
 }
 
 .card_info_small_small {
@@ -323,7 +323,8 @@ color: rgba(255, 255, 255, 0.82);
 transition: 0.2s;
 display: flex;
 justify-content: center;
-align-items: center;   
+align-items: center; 
+font-size: 0.9rem; 
 }
 
 .card_profile_name_div:hover {
@@ -344,7 +345,8 @@ height: 100%;
 color: rgba(255, 255, 255, 0.82);
 display: flex;
 justify-content: center;
-align-items: center;   
+align-items: center;
+font-size: 0.9rem;
 }
 
 .card_date_div {
@@ -353,7 +355,8 @@ height: 100%;
 color: rgba(255, 255, 255, 0.82); 
 display: flex;
 justify-content: center;
-align-items: center;   
+align-items: center;
+font-size: 0.9rem;   
 }
 
 .card_more_div {
